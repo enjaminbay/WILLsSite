@@ -1,0 +1,232 @@
+"this is from https://github.com/CoreyMSchafer/code_snippets/blob/master/Django_Blog/snippets/main.css"
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+.pp {
+    margin-top: auto;
+}
+
+.bg-steel {
+  background-color: #6453d4;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.moveBlockLeft {
+
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  width: fit-content;
+  border: 5px solid #dddddd;
+  border-radius: 3px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dropdown {
+  display: none ;
+  position: absolute;
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px 20px;
+  background-color: #5f788a;
+}
+
+.tt:hover .dropdown {
+  display: block;
+}
+
+.highlight:hover {
+    background-color: #444444;
+}
+
+
+.lineITem {
+    padding: 0px 10px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.floatRight {
+    float: right;
+}
+
+.indicatorBox span{
+    margin-block: 0.5px;
+    outline: 1px inset grey;
+    padding: 10px 10px;
+}
+.indicatorBox {
+    height: 100%;
+    margin-block: 0.5px;
+    outline: 1px inset grey;
+}
+
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.VerticalCenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.right {
+    text-align: right;
+}
+
+.blackOutline2 {
+    border: 2px solid black;
+}
+
+.greyOutline {
+    margin-block: 0.5px;
+    outline: 1px inset grey;
+}
+
+.Padding {
+    padding: 10px 10px;
+}
+
+.Padding2 {
+    padding: 35px 20px;
+}
+
+
+
+.greenHighlight {
+    background: #a6ffb2;
+}
+
+.darkGreenLight {
+    background: #ffa6b9;
+}
+
+.darkRedLight {
+    background: #c24253;
+}
+
+.redHighlight {
+    background: #fa4655;
+}
+
+.bigFont {
+    font-size: 2.5rem;
+}
+
+.redFont {
+    color: red;
+}
+
+.bottom {
+    text-align: bottom;
+}
+
+.greenFont {
+    color: green;
+}
+
+.ui-menu {
+    list-style-type: none;
+    width: 185px;
+}
+
+.ui-menu .ui-menu-item div {
+    background: #949da1;
+    border: 2px solid #dddddd;
+    border-radius: 2px;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.login {
+    background: #8aa1a6;
+    padding: 0% 5%;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+}
+

@@ -1,0 +1,45 @@
+{% extends "home/base.html" %}
+    {% block content %}
+        <form method="post" action="." autocomplete="off" autocapitalize="characters" class="center">
+          {% csrf_token %}
+          {{ form }}
+          <button type="submit">Submit</button>
+        </form>
+
+    <table style="width: 100%;">
+        {% for date, values in buySellDict.items %}
+            {% if values.Success == 'Yes' %}
+                <tr class="greenHighlight">
+                    <th>
+                        {{ date }}
+                    </th>
+                    {% for key, value in values.items %}
+                        <td>
+                            {{ key }}  ---> {{ value }}
+                        </td>
+                    {% endfor %}
+                </tr>
+            {% elif values.Success == 'No' %}
+                <tr class="redHighlight">
+                    <th>
+                        {{ date }}
+                    </th>
+                    {% for key, value in values.items %}
+                        <td>
+                            {{ key }}  ---> {{ value }}
+                        </td>
+                    {% endfor %}
+                </tr>
+            {% endif %}
+        {% endfor %}
+    </table>
+
+    <div class="bigFont">
+        <b>
+            The Success Rate is {{successRate}}
+        </b>
+        <b class="floatRight">
+            The Average ROI is {{ AverageROI }}
+        </b>
+    </div>
+{% endblock %}
